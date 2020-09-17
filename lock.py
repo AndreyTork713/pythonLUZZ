@@ -19,6 +19,7 @@ while electro == 1:
         lock = 1
         print('Программа остановлена, дверь разблокирована')
         time.sleep(5)
+        password =()
         electro = 0
     else:
         print('не верный пароль, дверь закрыта')
